@@ -1,3 +1,3 @@
-# **CppSoftwareTraining**
-> ## name: **Noh Sungjin**
-> ## department: **Department of Eletrical Engineering, Inha Univertisy**
+## **CppSoftwareTraining**
+> ### name: **Noh Sungjin**
+> ### department: **Department of Eletrical Engineering, Inha Univertisy**
