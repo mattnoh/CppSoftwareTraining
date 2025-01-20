@@ -1,13 +1,13 @@
 #include <iostream>
 #include <string>
-#include <cctype>  // for toupper and tolower function
+//#include <cctype>  // for toupper and tolower function
 
 using namespace std;
 
 int main() {
 
     string input;
-    cout << "Write: ./convert (up or down) 'string' = ";
+    cout << "input= ";
     getline(cin, input); // read the entire input
 
 
