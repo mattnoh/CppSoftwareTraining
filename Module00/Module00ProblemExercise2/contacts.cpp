@@ -72,12 +72,12 @@ bool name_valid(string tname){
 
     if(tname.size()>20){
         
-        cout << "Invalid Name\nEnter A Name Within 20 char" << endl;
+        cout << "Invalid name\nEnter A name Within 20 char" << endl;
         return 0;
     }
     else if(tname == ""){
 
-        cout << "Invalid Name\nName Cannot be Blank" << endl;
+        cout << "Invalid name\nname Cannot be Blank" << endl;
         return 0;
     }
     else 

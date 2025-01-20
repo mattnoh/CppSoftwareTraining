@@ -92,7 +92,7 @@ bool contact :: edit (string new_name){                     //
     string new_num;
     if (new_name == name){
 
-        cout << "Enter New Name: "; 
+        cout << "Enter New name: "; 
         cin >> new_name;
 
         cout << "Enter New Number: ";
@@ -136,13 +136,13 @@ void addContacts() {
                 //counts how many times the do-while loop executes
                 counter++;
 
-                cout <<"Name: ";
+                cout <<"name: ";
                 cin >> temp_name;
 
                 cout << "Mobile Number: ";
                 cin >> temp_num;
 
-                cout << "NickName:  ";
+                cout << "Nickname:  ";
                 cin >> temp_nname;
 
                 for(i=0; i<50; i++)
@@ -173,7 +173,7 @@ void addContacts() {
 
 void editContacts () {
 
-    cout << "Enter a Contact Name to Edit:"
+    cout << "Enter a Contact name to Edit:"
         "\t\t\t\t\n";
 
     cin >> temp_name;
@@ -185,7 +185,7 @@ void editContacts () {
                 break;
             }
         if(!flag)
-            cout<< " Contact Name Not Found" << endl;
+            cout<< " Contact name Not Found" << endl;
 }
 
 
@@ -195,7 +195,7 @@ void deleteContacts () {
                 if(counter)
                     cout<< "Try Again" << endl;
                 counter++;
-                cout << "Enter a Contact Name to Delete;" ;
+                cout << "Enter a Contact name to Delete;" ;
                 cin >> temp_name;
 
                 // confirmation
@@ -215,7 +215,7 @@ void deleteContacts () {
                 }
 
                 if(!flag)
-                cout << "Contact Name Not Found" << endl;
+                cout << "Contact name Not Found" << endl;
                 if(cancel_flag)
                 break;
 
@@ -239,7 +239,7 @@ void searchContacts(){
                 if(counter)
                     cout<< "Try Again" << endl;
                 counter++;
-                cout<< "Search A Name: \t\t\t\tPress$ to Cancel\n";
+                cout<< "Search A name: \t\t\t\tPress$ to Cancel\n";
                 cin >> temp_name;
 
                 //cancel operation
@@ -254,7 +254,7 @@ void searchContacts(){
                         break;
                     }
                 if(!flag)
-                    cout << "Contact Name Not Found" << endl;
+                    cout << "Contact name Not Found" << endl;
             }while(!flag);
 }
 

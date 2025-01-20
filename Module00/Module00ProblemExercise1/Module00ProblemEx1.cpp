@@ -14,7 +14,7 @@ int main() {
     if (input.substr(0, 13) == "./convert up ") { // from 0 to 13 check if the user wrote ./convert up
         string text = input.substr(13); // starting fromm 13 take the written text into a new string
         for (int i = 0; i < text.length(); ++i) {  // loop from i = 0 to i < str.length()
-            text[i] = toupper(text[i]);  // make each letter into uppercase
+            text[i] = toupper(text[i]);  // name each letter into uppercase
         }
         cout << text << endl;
 
