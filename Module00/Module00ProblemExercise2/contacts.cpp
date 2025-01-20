@@ -42,26 +42,21 @@ int main () {
         case 0: 
             showContacts();
             break;
-        
         case 1:
             addContacts();
             break;
-            
         case 2:
             editContacts();
             break;
-
         case 3:
             deleteContacts();
             break;
         case 4:
-            
+            searchContacts();
             break;
-
         case 5:
             return 0;
             break;
-
 
         default:
             break;
@@ -91,9 +86,9 @@ bool name_valid(string tname){
 
 bool num_valid(string tnum){
 
-    if(tnum.size()>13) {
+    if(tnum.size()<13) {
         
-        cout << "Invalid Number\nEnter A Number Within 20 char" << endl;
+        cout << "Invalid Number\nEnter A Number Over 13 char" << endl;
         return 0;
     }
     else if(tnum == ""){
