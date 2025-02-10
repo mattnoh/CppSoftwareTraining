@@ -25,6 +25,7 @@ public:
     // Inline getters and setters for brevity
     std::string getName() const { return name; }
     void setName(const std::string& carName) { name = carName; }
+
     std::string getModel() const { return model; }
     void setModel(const std::string& carModel) { model = carModel; }
     float getYear() const { return year; }

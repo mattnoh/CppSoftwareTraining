@@ -31,3 +31,6 @@ int main() {
     std::cout << "\nProgram finished. All cars cleaned up." << std::endl;
     return 0;
 }
+
+// g++ main.cpp car.cpp sportscar.cpp -o main
+// ./main
